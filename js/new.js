@@ -5,10 +5,14 @@ if(confirm("¿Deseas saber acerca de autonomia economica de las mujeres?")){
     if(nombre = prompt("Ingresa tu nombre")){
          alert("Hola "+nombre+" te inivitamos a ser emprendedor y a desarrollar tu autonomia económica.");
     }else{
-        alert("Diste click en cancelar");
-    }
-   
-    
+        if(confirm("Estas segura de cancelar")){
+            alert("No te preocupes");
+
+        }else{
+            nombre = prompt("Ingresa tu nombre");
+            alert("Hola "+nombre+" te inivitamos a ser emprendedor y a desarrollar tu autonomia económica.");
+        }
+    } 
 }else{
     alert("Te invitamos a unirte la proxima vez");
 }
