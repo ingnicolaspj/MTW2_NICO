@@ -6,7 +6,7 @@ if(confirm("¿Deseas saber acerca de autonomia economica de las mujeres?")){
          alert("Hola "+nombre+" te inivitamos a ser emprendedor y a desarrollar tu autonomia económica.");
     }else{
         if(confirm("Estas segura de cancelar")){
-            alert("No te preocupes");
+            alert("No te preocupes la proxima ve podras ingresar tu nombre");
 
         }else{
             nombre = prompt("Ingresa tu nombre");
